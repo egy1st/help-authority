@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=DC Help Authority v1.0.chm
+Contents file=DataMangerHelp.hhc
+Default topic=Dynamic Components Help Authority.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=DataMangerHelp.hhk
+Language=0x409 English (United States)
+Title=DC Help Authority Help
+
+
+[FILES]
+contact us.htm
+features.htm
+how to order.htm
+license.htm
+system requirements.htm
+Overview.htm
+Installing Help Authority COM.htm
+Deploying Help Authority COM Applications.htm
+Dynamic Components Help Authority.htm
+Including DC Help Authority.htm
+PrepareHelp.htm
+Sensitive F12 Help.htm
+
+[INFOTYPES]
+

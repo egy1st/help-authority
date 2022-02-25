@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Prepare Help</TITLE>
+</HEAD>
+<BODY>
+<H1><font color="#000080">PrepareHelp</H1>
+<H1>
+<HR>
+</H1><FONT color=#0000ff size=2><FONT color=#000080 size=4>
+<P><FONT color=#000000 size=3>Prepare form to know every thing about the form 
+and its controls and all binding information <br>
+</FONT></FONT>
+<FONT color=#000080 size=3><br>
+<b>syntax:</b></FONT></P>
+<P>
+</FONT><FONT color=#000000 >Function </FONT></font>
+PrepareHelp(ByRef dm_DSN As ADODB.Connection, ByRef dm_Form As 
+System.Windows.Forms.Form, Optional ByRef dm_Grid As AxMSDataGridLib.AxDataGrid 
+= Nothing)</P>
+<font color="#000080">
+<P><FONT color=#000000 >dm_DSN&nbsp; is a reference to your DSN connection</FONT></P>
+<P><FONT color=#000000 >dm_Form is a reference to your form which passed as 'Me' 
+keyword</FONT></P>
+<P><FONT color=#000000 >Optional dm_Grid (if your form has a grid) is a 
+reference to your grid</FONT></P>
+<P><STRONG><br>
+Example:</STRONG></P></font>
+<P>Dim HA As New DynamicComponents.HelpAuthority()</P>
+<P>HA.PrepareHelp(CN, Me, Me.AxDataGrid1)</P>
+<p>where CN<FONT color=#000000 > &nbsp; is a reference to your DSN connection<br>
+and Me is a reference to your form which passed as 'Me' 
+keyword<br>
+and </FONT>AxDataGrid1<font color="#000080"><FONT color=#000000 > (if your form 
+has a grid) is a reference to your grid</FONT></p>
+</font>
+<p>&nbsp;</p>
+<p><img border="0" src="help.gif" width="720" height="428"></p>
+</BODY>
+</HTML>

@@ -1,0 +1,46 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tutorial</title>
+</head>
+
+<body>
+
+<h1 dir="ltr"><span style="font-weight: 400"><font color="#000080">Tutorial</font></span></h1>
+<hr dir="ltr">
+<p dir="ltr">This tutorial describe most of features supported by 
+DC.HelpAuthority</p>
+<p dir="ltr">also you can refer to the project&nbsp; example which installed by 
+default into C:\Program Files\Dynamic Components\Help Authority\<span style="font-weight: 400">Tutorial\</span></p>
+<p dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">Dim HA As New DynamicComponents.HelpAuthority()</p>
+<p align="left" dir="ltr">Dim CN As New ADODB.Connection()</p>
+<p align="left" dir="ltr">Dim oOrders As New ADODB.Recordset()</p>
+<p align="left" dir="ltr">Dim oOrderDetails As New ADODB.Recordset()</p>
+<p align="left" dir="ltr">Dim oAccess As New Access.Application()</p>
+<p align="left" dir="ltr">Dim DAO_DBEngine As New DAO.DBEngine()</p>
+<p align="left" dir="ltr">'Press F12 to get help to any control on your form</p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr"><font color="#0000FF">Private Sub TestForm_Load(ByVal 
+eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles 
+MyBase.Load</font></p>
+<p align="left" dir="ltr">'establish DSN</p>
+<p align="left" dir="ltr">oAccess.DBEngine.RegisterDatabase(&quot;DCDM_Nwind&quot;, 
+&quot;Microsoft Access Driver (*.mdb)&quot;, True, &quot;DBQ=&quot; &amp; VB6.GetPath &amp; &quot;\Nwind.mdb&quot;)</p>
+<p align="left" dir="ltr">CN.Open(&quot;DSN=DCDM_NWind&quot;)</p>
+<p align="left" dir="ltr">oOrders.Open(&quot;Orders&quot;, CN, 
+oOrders.CursorType.adOpenKeyset, oOrders.LockType.adLockOptimistic)</p>
+<p align="left" dir="ltr">oOrderDetails.Open(&quot;OrderDetails&quot;, CN, 
+oOrderDetails.CursorType.adOpenKeyset, oOrderDetails.LockType.adLockOptimistic)</p>
+<p align="left" dir="ltr">PopulateDate()</p>
+<p align="left" dir="ltr">Me.AxDataGrid1.DataSource = oOrderDetails</p>
+<p align="left" dir="ltr">HA.PrepareHelp(CN, Me, Me.AxDataGrid1)</p>
+<p align="left" dir="ltr"><font color="#0000FF">End Sub</font></p>
+
+</body>
+
+</html>

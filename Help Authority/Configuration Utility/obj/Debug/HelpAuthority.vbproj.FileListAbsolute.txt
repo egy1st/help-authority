@@ -1,0 +1,10 @@
+F:\Help Authority\Configuration Utility\obj\Debug\HelpAuthority.vbproj.ResolveComReference.cache
+F:\Help Authority\Configuration Utility\bin\Configuration Utility.exe
+F:\Help Authority\Configuration Utility\bin\Configuration Utility.pdb
+F:\Help Authority\Configuration Utility\bin\Configuration Utility.xml
+F:\Help Authority\Configuration Utility\obj\Debug\ResolveAssemblyReference.cache
+F:\Help Authority\Configuration Utility\obj\Debug\ConfigurationForm.resources
+F:\Help Authority\Configuration Utility\obj\Debug\HelpAuthority.vbproj.GenerateResource.Cache
+F:\Help Authority\Configuration Utility\obj\Debug\Configuration Utility.exe
+F:\Help Authority\Configuration Utility\obj\Debug\Configuration Utility.xml
+F:\Help Authority\Configuration Utility\obj\Debug\Configuration Utility.pdb

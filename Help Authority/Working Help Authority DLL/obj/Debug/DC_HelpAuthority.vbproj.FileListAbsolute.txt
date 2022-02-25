@@ -1,0 +1,11 @@
+G:\Help Authority\Working Help Authority DLL\bin\Dc_HelpAuthority35.exe
+G:\Help Authority\Working Help Authority DLL\bin\Dc_HelpAuthority35.pdb
+G:\Help Authority\Working Help Authority DLL\bin\Dc_HelpAuthority35.xml
+G:\Help Authority\Working Help Authority DLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Help Authority\Working Help Authority DLL\obj\Debug\DynamicComponents.HelpAuthority.resources
+G:\Help Authority\Working Help Authority DLL\obj\Debug\HelpForm.resources
+G:\Help Authority\Working Help Authority DLL\obj\Debug\Form1.resources
+G:\Help Authority\Working Help Authority DLL\obj\Debug\DC_HelpAuthority.vbproj.GenerateResource.Cache
+G:\Help Authority\Working Help Authority DLL\obj\Debug\Dc_HelpAuthority35.exe
+G:\Help Authority\Working Help Authority DLL\obj\Debug\Dc_HelpAuthority35.xml
+G:\Help Authority\Working Help Authority DLL\obj\Debug\Dc_HelpAuthority35.pdb
